@@ -1,4 +1,4 @@
-public abstract class Human implements Emotional, Actionable{
+public abstract class Human implements Emotional, Actionable {
     String Name;
 
     @Override
