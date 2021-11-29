@@ -3,7 +3,7 @@ public enum People {
     CARLSON("Карлсона"),
     BAD_GUYS("Филле и Рулле");
 
-    private String value;
+    private final String value;
     People(String val) {
         value = val;
     }

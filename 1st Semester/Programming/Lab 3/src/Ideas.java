@@ -2,7 +2,7 @@ public enum Ideas {
     BAD("Нет, это не годится"),
     DANGEROUS("это опасно");
 
-    private String value;
+    private final String value;
     Ideas(String val) {
         value = val;
     }
