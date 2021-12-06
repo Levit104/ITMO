@@ -1,11 +1,13 @@
 public class Story {
     public static void main(String[] args) {
         Kid kid = new Kid("Малыш");
-        kid.NotHappy(People.SOMEONE);
-        kid.Sigh();
-        kid.Break(Objects.HEAD);
-        kid.Save(People.CARLSON, People.BAD_GUYS);
-        kid.Call(Objects.POLICE);
-        kid.Explain(People.CARLSON, People.BAD_GUYS, Ideas.BAD, Ideas.DANGEROUS);
+        BadGuys robbers = new BadGuys("Филле и Рулле");
+        kid.notHappy(People.SOMEONE);
+        kid.sigh();
+        kid.breakSomething(Objects.HEAD);
+        kid.save(People.CARLSON, robbers);
+        robbers.catchSomeone(People.CARLSON);
+        kid.call(People.POLICE);
+        kid.explain(Ideas.BAD, Ideas.DANGEROUS);
     }
 }

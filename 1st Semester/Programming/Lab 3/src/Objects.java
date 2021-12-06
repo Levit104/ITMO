@@ -1,6 +1,5 @@
 public enum Objects {
-    HEAD("голову"),
-    POLICE("полицию");
+    HEAD("голову");
 
     private final String value;
     Objects(String val) {

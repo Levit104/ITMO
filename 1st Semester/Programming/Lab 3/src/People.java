@@ -1,7 +1,7 @@
 public enum People {
     SOMEONE("ему"),
     CARLSON("Карлсона"),
-    BAD_GUYS("Филле и Рулле");
+    POLICE("полицию");
 
     private final String value;
     People(String val) {

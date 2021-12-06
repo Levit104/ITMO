@@ -1,4 +1,8 @@
 public interface Emotional {
-    void NotHappy(People p); // не обрадовался (ему)
-    void Sigh(); // вздохнул
+    default void notHappy(People p){
+        System.out.println("не радуется");
+    }
+    default void sigh() {
+        System.out.println("вздыхает");
+    }
 }
