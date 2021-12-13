@@ -15,6 +15,7 @@ public abstract class Human implements Emotional, Actionable {
     public boolean equals(Object obj) {
         if (this.getClass() != obj.getClass()) return false;
         Human others = (Human) obj;
-        return this.name == others.name;
+        //return this.name == others.name;
+        return this.hashCode() == others.hashCode();
     }
 }
