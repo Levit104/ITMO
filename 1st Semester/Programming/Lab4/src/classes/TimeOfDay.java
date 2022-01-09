@@ -13,7 +13,7 @@ public class TimeOfDay {
         return isStarted;
     }
 
-    public static class Dusk extends TimeOfDay {
+    public class Dusk extends TimeOfDay {
         public void start(AmountOfTime aot) {
             setStatus(true);
             System.out.printf("Сумерки сгущались %s.%n", aot.getValue());

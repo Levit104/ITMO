@@ -30,7 +30,9 @@ public class Story {
         story.start();
 
         try {
-            TimeOfDay.Dusk dusk = new TimeOfDay.Dusk();
+            //TimeOfDay.Dusk dusk = new TimeOfDay.Dusk();
+            TimeOfDay tod = new TimeOfDay();
+            TimeOfDay.Dusk dusk = tod.new Dusk();
             Carlson carlson = new Carlson("Карлсон");
             Housekeeper frakenBock = new Housekeeper("фрекен Бок");
             ExtendedKid kid = new ExtendedKid("Малыш");
